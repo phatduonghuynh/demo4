@@ -1,0 +1,59 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+  background-color: rgb(60, 14, 187);
+  font-weight: bold;  
+  text-align: center;
+  color: white;
+
+}
+.nav a{
+    margin-right: 10px;
+}
+.divider {
+    margin: 0 auto;
+    width: 50%;
+    border: 3px solid #303030;
+}
+.about .about__title {
+    color: #963;
+    text-align: center;
+}
+.about .about__desc {
+    width: 50%;
+    margin-left: auto;
+    text-align: right;
+}
+.special .special__title {
+    color: #963;
+    text-align: center;
+}
+.special .first-list__title {
+    font-weight: bold;
+}
+.menu .menu__title {
+    color: #963;
+    text-align: center;
+}
+.menu .menu__table {
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.menu__table th
+.menu__table td {
+    padding: 15px;
+    border: 1px solid black;
+}
+.footer .footer__title {
+    text-align: center;
+    color: #963;
+}
+.footer .footer__contact-info {
+    text-align: center;
+}
